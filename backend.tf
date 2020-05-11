@@ -3,11 +3,11 @@ terraform {
 
 backend "s3" { 
 
-bucket = "backend-state-mery" 
+bucket = "${S3BUCKET}" 
 
-key = "vet/us-east-1/sharedtools/dev/infrastructure.tfstate" 
+key = "${S3BUCKETPROJ}/${S3BUCKETREGION}/${S3BUCKETTYPE}/${ENVIRONMENT}/${S3TFSTATEFILE}" 
 
-region = "us-east-1" 
+region = "${S3BUCKETREGION}" 
 
   } 
 
