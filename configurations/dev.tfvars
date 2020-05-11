@@ -1,6 +1,6 @@
 environment = "dev" 
 
-s3_bucket = "backend-state-mery" #Will be used to set backend.tf 
+s3_bucket = "sdlc-mery-dev" #Will be used to set backend.tf 
 
 s3_folder_project = "vet" #Will be used to set backend.tf 
 
