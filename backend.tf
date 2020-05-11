@@ -1,7 +1,7 @@
 terraform { 
 backend "s3" { 
-bucket = "sdlc-mery-prod" 
-key = "vet/eu-west-1/sharedtools/prod/infrastructure.tfstate" 
-region = "eu-west-1" 
+bucket = "sdlc-mery-stage" 
+key = "vet/us-west-2/sharedtools/stage/infrastructure.tfstate" 
+region = "us-west-2" 
   } 
 } 
