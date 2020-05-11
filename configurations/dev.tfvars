@@ -15,3 +15,5 @@ s3_tfstate_file = "infrastructure.tfstate" #Will be used to set backend.tf
 
 
 region = "us-east-1"
+
+
