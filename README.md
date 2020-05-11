@@ -11,3 +11,6 @@ us-west-2    stage
 aws s3  mb  s3://sdlc-mery-stage   --region    us-west-2
 eu-west-1    prod 
 aws s3  mb  s3://sdlc-mery-prod    --region    eu-west-1
+
+
+
